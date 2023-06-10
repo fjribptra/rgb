@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨ Color changer  ✨</title>
+    <!-- 👇 css code file 👇 -->
+    <link rel="stylesheet" href="./src/style/global.css"/>
+</head>
+<body>
+
+    <div class="reset-button">
+        <button id="reset">Reset</button>
+    </div>
+
+    <div class="container">
+        <div class="color-changer">
+            <input id='r' type="range" min="0" max="255">
+            <input id="g" type="range" min="0" max="255">
+            <input id="b" type="range" min="0" max="255">
+        </div>
+        <div class="info">
+            <div class="number">
+                <h6><span class="r">R</span><span id="r-info"> : -</span></h6>
+                <h6><span class="g">G</span><span id="g-info"> : -</span></h6>
+                <h6><span class="b">B</span><span id="b-info"> : -</span></h6>
+            </div>
+            <div class="color">
+                <div class="red squere"></div>
+                <div class="green squere"></div>
+                <div class="blue squere"></div>
+            </div>
+            <!-- <div class="blue-area">
+            </div> -->
+        </div>
+    </div>
+
+    
+    <!-- 👇 javascript code file 👇 -->
+    <script src="./src/js/index.js"></script>
+</body>
+</html>

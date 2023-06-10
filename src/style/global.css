@@ -1,0 +1,96 @@
+/*? global clearing */
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    transition: .5s;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+.reset-button {
+    width: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset {
+    border: none;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+#reset:hover {
+    cursor: pointer;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    margin: 30vh auto;
+}
+
+.color-changer {
+    width: 200px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info {
+    margin-top: 10px;
+    width: 200px;
+    height: 70px;
+    border: 2px solid black;
+    background-color: #fff;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info h6 {
+    margin-left: 10px;
+}
+
+.r {
+    color: red;
+}
+
+.g {
+    color: green;
+}
+
+.b {
+    color: blue;
+}
+
+.color {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-right: 10px;
+}
+
+.squere {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+}
