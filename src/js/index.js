@@ -12,6 +12,10 @@ const bInfo = document.getElementById('b-info')
 
 const resetButton = document.getElementById('reset')
 
+colorChangerR.value = 255
+colorChangerG.value = 255
+colorChangerB.value = 255
+
 resetButton.addEventListener('click', function() {
     window.location.reload()
 })
